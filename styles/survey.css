@@ -1,0 +1,126 @@
+.find-content {
+    min-width: 0;
+}
+
+
+.dog-cat {
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.dog-cat label > input {
+    display: none;
+}
+
+.dog-cat label input:checked + .radio-btn {
+    border: 6px solid rgb(255, 204, 0);
+    padding:0;
+}
+
+.radio-btn {
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    width: 215px;
+    border: 2px solid rgb(127, 50, 155);
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+    
+}
+
+.radio-btn:hover {
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.radio-btn-img {
+    height: 130px;
+    
+}
+
+form label {
+    color:rgb(127, 50, 155);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+legend {
+    color:rgb(127, 50, 155);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.giveaway-labels {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    color: rgb(127, 50, 155);
+}
+
+
+.breed-label {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+form fieldset {
+    margin: 30px 0px 40px 0px;
+    border: solid 2px rgb(255, 204, 0);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.buttons {
+    margin: 50px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+
+#submit-btn {
+    color: white;
+    background-color: rgb(127, 50, 155);
+    border: none;
+}
+
+#reset-btn {
+    color: black;
+    background-color: rgb(225, 225, 225);
+    border: solid 1px rgb(177, 177, 177);
+}
+
+.form-btns {
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 12px 17px;
+    box-shadow: 3px 3px 3px rgb(147, 147, 147);
+    transition: box-shadow 0.2s opacity 0.15s;
+    border-radius: 12px;
+}
+
+.form-btns:hover {
+    box-shadow: 5px 5px 5px rgb(147, 147, 147);
+    cursor: pointer;
+}
+
+.form-btns:active {
+    opacity: 0.7;
+}
+

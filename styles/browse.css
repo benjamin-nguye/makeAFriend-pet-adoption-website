@@ -1,0 +1,14 @@
+.browse-content {
+    min-width: 0;
+    width: 100%;
+}
+
+.descriptionTitle {
+    color: rgb(127, 50, 155);
+}
+
+.comments {
+    color: rgb(79, 79, 79);
+    font-weight: 400;
+    font-style: italic;
+}

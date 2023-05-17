@@ -1,0 +1,25 @@
+.contact-content {
+    min-width: 0;
+    width: 100%;
+
+}
+
+dt {
+    color: rgb(127, 50, 155);
+    font-weight: 500;
+}
+
+.cat-picture {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.stevie {
+    width: 25%;
+    margin: auto;
+}
+

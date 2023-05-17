@@ -1,0 +1,19 @@
+.dog-care-content {
+    min-width: 0;
+}
+
+.care-link {
+    color: black;
+}
+
+.care-link:hover {
+    color: rgb(127, 50, 155);
+}
+
+.care-link:active {
+    color: rgb(255, 204, 0);
+}
+
+#dog-care-img {
+    width: 100%;
+}
